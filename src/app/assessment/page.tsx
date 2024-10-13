@@ -1,6 +1,6 @@
 import React from 'react';
 import {  Bell } from 'lucide-react';
-import Layout from '../Layout/page';
+import Layout from '../Layout/layout';
 
 const AssessmentUI = () => {
   return (
@@ -15,7 +15,7 @@ const AssessmentUI = () => {
         </div>
 
         <div className="flex space-x-8">
-          {/* Modules List */}
+         
           <div className="w-1/4">
             <ul className="space-y-4">
               <li className="flex items-center justify-between bg-white p-3 rounded-md shadow">
@@ -27,7 +27,7 @@ const AssessmentUI = () => {
             </ul>
           </div>
 
-          {/* Question Card */}
+        
           <div className="w-3/4 bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-xl font-semibold mb-4">Module 1</h2>
             <div className="mb-4">

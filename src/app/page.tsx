@@ -1,6 +1,6 @@
 
 import UjuziWelcome from "./landingpage";
-import TeacherDashboard from "./teach/page";
+
 
 
 

@@ -1,4 +1,4 @@
-import Layout from "../Layout/page";
+import Layout from "../Layout/layout";
 
 // components/MainContent.js
 export default function MainContent() {

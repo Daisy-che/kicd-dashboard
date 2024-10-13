@@ -1,7 +1,7 @@
 // components/Dashboard.js
 "use client"
 import { useState } from 'react';
-import Layout from '../Layout/page';
+import Layout from '../Layout/layout';
 
 export default function Dashboard() {
   const [teachers] = useState([

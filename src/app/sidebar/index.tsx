@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import { Home, Users, ClipboardList, UserCheck } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Sidebar() {
   const [active, setActive] = useState('teachers');
@@ -9,7 +10,7 @@ export default function Sidebar() {
     <aside className="w-64  h-screen bg-[#18315b] flex flex-col items-center py-8">
      
       <div className="mb-12">
-       <img src='/images/ujuzilogo.png ' className='w-24 h-24 mr-16'/>
+       <Image src='/images/ujuzilogo.png'alt='ujuzi' className='w-24 h-24 mr-16'/>
         
       </div>
 
@@ -27,7 +28,7 @@ export default function Sidebar() {
           <span>Home</span>
         </a>
 
-        {/* Teachers Link */}
+       
         <a
           href="/teach"
           onClick={() => setActive('teachers')}
@@ -39,7 +40,7 @@ export default function Sidebar() {
           <span>Teachers</span>
         </a>
 
-        {/* Assessment Link */}
+      
         <a
           href="/assessment"
           onClick={() => setActive('assessment')}
@@ -51,7 +52,7 @@ export default function Sidebar() {
           <span>Assessment</span>
         </a>
 
-        {/* Trainers Link */}
+       
         <a
           href="/trainer"
           onClick={() => setActive('trainers')}

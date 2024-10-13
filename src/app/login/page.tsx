@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -26,7 +26,6 @@ const UjuziLogin = () => {
         </div>
       </div>
 
-     
       <div className="w-full md:w-1/2 flex items-center justify-center p-8">
         <div className="w-full max-w-md">
           <h2 className="text-2xl font-bold mb-8">LOGIN</h2>
@@ -63,17 +62,16 @@ const UjuziLogin = () => {
               </div>
             </div>
             <Link href="/teacher">
-            <button
-              type="submit"
-              className="w-full bg-blue-900 text-white p-3 rounded hover:bg-blue-800 transition duration-300"
-            >
-              LOGIN
-            </button>
+              <button
+                type="submit"
+                className="w-full bg-blue-900 text-white p-3 rounded hover:bg-blue-800 transition duration-300"
+              >
+                LOGIN
+              </button>
             </Link>
-
           </form>
           <p className="mt-4 text-center text-sm">
-            Don't have an account?{' '}
+            Don&apos;t have an account?{' '}
             <Link href="/signup" className="text-blue-600 hover:underline">
               SignUp
             </Link>
